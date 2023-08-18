@@ -1,0 +1,26 @@
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+!CMakeLists.txt
+
+# Ignore build/ directory commonly used for out-of-source builds
+build/
+
+# Ignore other files/directories that might be created by CMake or build tools
+*.swp
+*.swo
+*.swn
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.bak
+*.cache
+*.o
+*.obj
+*.rej
+*.orig
+*~
+*.rpo
